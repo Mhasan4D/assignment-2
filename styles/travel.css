@@ -21,7 +21,7 @@
     line-height: normal;  
     padding-top: 106px;
     padding-left: 235px;
-
+   
 }
 
 .banner-description{
@@ -37,22 +37,17 @@
 
 }
 
-.option-1{
+.btn-one{
     width: 174px;
     height: 50px;
     background-color: white;
     border-radius: 8px;
-background: #FFF;
-}
-
-
-.option-2{
-    width: 174px;
-    height: 50px;
-    border-radius: 8px;
     background: #FFF;
+    border-color: none;
 }
-.option-3{
+
+
+.btn-two{
     width: 174px;
     height: 50px;
     border-radius: 8px;
@@ -60,23 +55,144 @@ background: #FFF;
 }
 
 
-.option-4{
+.btn-three{
     width: 174px;
     height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+.btn-four{
+    width:174px;
+    height:50px;
     text-align: center;
     border-radius: 8px;
-    background: #FF5400;
+    background: #FF5400; 
    
- 
-
 }
 
-.option-container{
+
+
+.btn-container{
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-top:70px;
+
+}
+
+.btn-style{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.tour-container{
+    width: 1010px;
+    height: 500px;
+    justify-content: center;
+
+    margin: 100px 135px;
+    gap: 40px;
+    
    
 }
+
+
+
+
+
+
+.tour-title{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+.point-description{
+
+    padding-left:18px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */  
+}
+
+
+.last-info{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.tour-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-five{
+    width: 174px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    position: absolute;
+    
+}
+
+
+
+.btn-style-2{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tour-img{
+ 
+ border-radius: 16px;
+
+}
+
+
+
+.tour-box{
+   position:relative;
+   bottom:35px;
+
+}
+
+
+
+  
    
 
 
