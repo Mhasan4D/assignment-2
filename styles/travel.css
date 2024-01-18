@@ -96,7 +96,7 @@ line-height: normal;
     width: 1010px;
     height: 500px;
     justify-content: center;
-
+    display: flex;
     margin: 100px 135px;
     gap: 40px;
     
@@ -150,10 +150,8 @@ font-weight: 400;
 line-height: 26px; 
 }
 
-.tour-container{
-    display: flex;
-    justify-content: center;
-}
+
+
 
 .btn-five{
     width: 174px;
@@ -273,6 +271,8 @@ line-height: 26px;
     height: 286px;
 
 }
+
+
 .img-section-3{
     width: 1010px;
     display: flex;
@@ -491,9 +491,11 @@ line-height: normal;
     width: 580px;
     height: 430px;
   }
+
+
   .footer-container{
 
-    width:1340px;
+    width:1255px;
     height: 500px;
     padding-top: 150px;
     justify-content: center;
@@ -506,7 +508,7 @@ line-height: normal;
 width: 40px;
 height: 46px;
 position: absolute;
-left:500px;
+left:520px;
 
 
 }
@@ -582,4 +584,182 @@ left:500px;
     
     }
       
-     
+   
+    
+
+
+    /* Mobile Device responsive stles */
+
+
+    @media screen and (max-width:576px) {
+      
+        
+        .btn-container, .tour-container,
+         .img-section-1, .img-section-2, 
+         .img-section-3, .card-container,
+          .newsletter-container, 
+           .newsletter-container{
+           
+
+            flex-direction: column;
+           
+        }
+
+      
+     .banner{
+        width: 500px;
+        margin: 50px 10px;
+        
+     }
+
+    .banner-title{
+        padding-left: 30px;
+        padding-top:40px
+    }
+
+
+    .btn-container{
+        padding-top:0px;
+        padding-left:120px;
+       
+      
+
+    }
+    
+
+    .tour-container{
+        width: 100%;
+        margin: 300px 10px;
+        padding-top: 50px;
+        padding-left: 20px;
+      
+       }
+
+
+
+
+
+        .destination-container{
+            width:400px;
+            margin:50px 10px;
+          
+         
+        
+        }
+        
+       
+        .img-section-1{
+            width: 500px;
+          
+           
+            margin: 20px 20px 300px 20px;}
+           
+
+
+
+
+            .img-section-2{
+                width: 500px;
+             
+                margin: 20px 20px 530px 20px;}
+
+
+
+
+
+      
+.img-section-3{
+    width: 500px;
+  
+    margin: 200px 20px 20px 20px;
+    gap: 24px;
+    
+}
+
+
+.choose-container{
+    width:500px;
+    margin: 48px 20px 48px 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+               
+
+.card-container{
+    width: 500px;
+    height: 248px;
+    margin: 48px 20px 48px 20px; 
+    gap: 24px;
+    
+}
+
+
+
+.card-3{
+    width: 500px;
+    height: 248px;
+    margin-top:200px;
+    padding-top:30px;
+    margin-left:20px;
+  
+}
+
+
+
+
+.newsletter-container{
+
+    width: 500px;
+  
+    margin:20px 20px 20px 20px;
+    
+    
+ }
+
+
+
+
+
+  
+  
+ .footer-container{
+
+    width:655px;
+    height: 500px;
+   
+   
+ 
+   
+    
+  }
+
+
+  
+  .end-footer{
+    text-align: center;
+  color: #131318;
+  padding-top: 200px;}
+
+
+
+
+  .icon-img{
+    width: 40px;
+    height: 46px;
+    position: absolute;
+    left:210px;
+
+}
+
+
+
+
+
+
+
+
+    }
+   
+   
